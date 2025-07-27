@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta set and css linked on every page -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Emre Cholakoglu">
+	<meta name="description" content="Contact form for Benefit of Education Website">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Navs (same on every html for this project)-->
+	<nav>
+		<ul>
+			<li><a href="index.html">Main Page</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="form.html">Contact</a></li>
+			<li><a href="quiz.html">Quiz Game</a></li>
+			<li><a href="selfaw.html">Self Awarness</a></li>
+			<li><a href="pdev.html">Personal Development</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="form-section">
+			<h2>Contact Us</h2>
+			<p>If you have any questions or feedback, please fill out the form below.</p>
+
+			<form>
+				<label for="name">Your Name:</label><br />
+				<input type="text" id="name" name="name" placeholder="Enter your name"><br /><br/>
+
+				<label for="email">Your Email:</label><br />
+				<input type="email" id="email" name="email" placeholder="Enter your email"><br/><br />
+
+				<label for="number">Your Phone Number:</label><br/>
+				<input type="number" id="number" name="number" placeholder="Enter your phone number"><br/><br/>
+
+				<label for="message">Message:</label><br />
+				<textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea><br/><br/>
+
+				<input type="submit" value="Send Message"/>
+			</form>
+		</section>
+	</main>
+
+	<!-- footer same on every page -->
+	<footer>
+		<p>© 2025 Emre Cholakoglu | National College of Ireland</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
